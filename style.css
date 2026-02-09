@@ -1,0 +1,121 @@
+/* ===== Base ===== */
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Header ===== */
+header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-top: 6px;
+}
+
+.tags {
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.intro {
+  margin-top: 20px;
+  max-width: 760px;
+}
+
+/* ===== Section ===== */
+h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+section {
+  margin-top: 32px;
+}
+
+/* ===== Project Cards ===== */
+.project {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 20px;
+}
+
+.project h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.project li {
+  margin-bottom: 6px;
+}
+
+.links {
+  margin-top: 12px;
+}
+
+.links a {
+  margin-right: 18px;
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Skills ===== */
+.skills {
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 20px;
+  color: #6b7280;
+}
+
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Divider ===== */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 40px 0;
+}
